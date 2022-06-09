@@ -1,0 +1,5 @@
+create TABLE `category`(
+   `id` int(11)  PRIMARY key  not null auto_increment comment "主键",
+   `name` VARCHAR(100) not null comment "名称",
+   `create_time` TIMESTAMP not null DEFAULT  CURRENT_TIMESTAMP comment "创建时间"
+)ENGINE=Innodb CHARSET=utf8 comment "分类表";

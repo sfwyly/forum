@@ -1,0 +1,152 @@
+
+@media  screen and (max-width:1300px ){
+	.forum_Information{
+		left: -300px;
+		transition: 1s;
+	}
+	.forum_Information .information_close{
+		left: 15px;
+		transition: 1s;
+	}
+}
+@media  screen and (min-width:1300px ){
+	.forum_Information{
+		left: 0px;
+		transition: 1s;
+	}
+	.forum_Information .information_close{
+		left: 0px;
+		transition: 1s;
+	}
+} 
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f8f8f8;
+}
+.forum_Information{
+	width: 300px;
+	height: 500px;
+	position: fixed;
+	background-color: black;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	color: white;
+	top: 50%;
+	transform: translateY(-50%);
+	box-shadow: #009F95 0px 0px 10px; 
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	z-index: 1000;
+}
+.my_logo{
+	text-align: center;
+	height: 150px;
+}
+.my_logo img{
+	margin-top: 35px;
+	width: 80px;
+	height: 80px;
+	border-radius:40px ;
+}
+.information_close{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin-top: 250px;
+	transform: translate(-50%);
+	margin-left: 100%;
+}
+.information_close img{
+	width: 30px;
+	height: 30px;
+}
+
+.forum_Information ul{
+	clear: both;
+	list-style-type: none;
+	padding: 0;
+	
+}
+.forum_Information ul li{
+	padding: 5px 0 5px 0px;
+	/* border-bottom: 1px dashed black; */
+	text-align: center;
+}
+.forum_Information ul li{
+	cursor: pointer;
+}
+
+.information_footer{
+	margin-top: 100px;
+	text-align: center;
+}
+.input-group-btn{
+	height: 34px;
+}
+.btn-default{
+	height: 34px;
+	background-image: url(../resources/img/search.png);
+	
+	background-position: center;
+	background-size: cover;
+}
+.input-border{
+	width: 200px;
+	margin: auto;
+}
+.container{
+	width: 100%;
+	
+}
+.article_content{
+	
+}
+.article{
+	background-color: while;
+	height: 320px;
+	/* margin: 5px; */
+	margin-top: 20px;
+	padding: 10px 5px  10px 5px;
+	border-radius: 5px;
+	box-shadow: #000000 0px 0px 15px;
+}
+.article_header{
+	height: 50px;
+	/* background-color: #009F95; */
+}
+.article_header span{
+	display: inline-block;
+}
+.article_header img{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	border: 2px solid red;
+}
+.article_title{
+	color: orange;
+	font-weight: 800;
+}
+.article_catagory{
+	color: orange;
+	
+}
+.article_description{
+	height: 200px;
+	overflow: hidden;
+	overflow: hidden;
+}
+.article_footer{
+	height: 50px;
+	color: green;
+	font-weight: 800;
+	overflow: hidden;
+}
+.article_footer span{
+	display: inline-block;
+}
